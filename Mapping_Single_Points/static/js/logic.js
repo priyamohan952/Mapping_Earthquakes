@@ -66,4 +66,19 @@ cities.forEach(function(city) {
   .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
   .addTo(map);
 });
+
+// Coordinates for each point to be used in the polyline.
+// let line = [
+  
+//   [33.9416, -118.4085],
+//   [40.6398262, --73.7787443],
+//   [30.1900,  -97.6687],
+//   [43.679370880, -79.629409790]
+// ];
+
+
+// // Create a polyline using the line coordinates and make the line black.
+// L.polyline(line, {
+//   color: "yellow"
+// }).addTo(map);
   
